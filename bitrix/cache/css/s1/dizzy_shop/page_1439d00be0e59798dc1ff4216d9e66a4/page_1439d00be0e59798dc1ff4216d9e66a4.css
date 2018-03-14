@@ -1,0 +1,225 @@
+
+
+/* Start:/bitrix/components/bitrix/system.pagenavigation/templates/round/style.css?15194464642917*/
+.bx-pagination {
+	margin: 10px 0;
+}
+.bx-pagination .bx-pagination-container {
+	text-align: center;
+	position: relative;
+}
+.bx-pagination .bx-pagination-container ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+}
+.bx-pagination .bx-pagination-container ul li {
+	display: inline-block;
+	margin: 0 2px 15px 2px;
+}
+.bx-pagination .bx-pagination-container ul li span{
+    -webkit-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+       -moz-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    	-ms-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    	 -o-transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+    		transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+	background: #eff0f1;
+	padding: 0 8px;
+	display: block;
+	height: 32px;
+	min-width: 32px;
+	line-height: 32px;
+	color: #444;
+	font-size: 14px;
+	border-radius: 16px;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.bx-pagination .bx-pagination-container ul li a {
+	text-decoration: none;
+	display: block;
+	border-radius: 16px;
+	height: 32px;
+	min-width: 32px;
+	line-height: 32px;
+	color: #444;
+	vertical-align: middle;
+}
+.bx-pagination .bx-pagination-container ul li a:hover span{
+	background: #DADADA;
+}
+.bx-pagination .bx-pagination-container ul li.bx-active span{
+	background: #0083d1;
+	color: #fff;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a span {
+	background: #fff;
+	border: 2px solid #eff0f1;
+	line-height: 28px;
+	padding: 0 18px;
+	color: #444;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-all span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next span{
+	color: #aab1b4;
+	background: #fff;
+	border: 2px solid #eff0f1;
+	line-height: 28px;
+	padding: 0 18px;
+}
+.bx-pagination .bx-pagination-container ul li.bx-pag-all a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-prev a:hover span,
+.bx-pagination .bx-pagination-container ul li.bx-pag-next a:hover span {
+	background: #fff;
+	border-color: #DADADA;
+	color: #000;
+}
+
+/*color schemes*/
+.bx-pagination.bx-green  .bx-pagination-container ul li.bx-active span{
+	background: #3bc915;
+	color: #fff;
+}
+.bx-pagination.bx-yellow  .bx-pagination-container ul li.bx-active span{
+	background: #F9A91D;
+	color: #fff;
+}
+.bx-pagination.bx-red  .bx-pagination-container ul li.bx-active span{
+	background: #E22B2B;
+	color: #fff;
+}
+.bx-pagination.bx-blue .bx-pagination-container ul li.bx-active span{
+	background: #0083d1;
+	color: #fff;
+}
+
+/* End */
+
+
+/* Start:/local/templates/dizzy_shop/components/bitrix/catalog.section/main_page/style.css?15194504903771*/
+@media (min-width: 1200px){
+	/*lg*/
+	/*6*/
+	.product-item-list-col-6   > .col-xs-12 > .row > .col-md-2:nth-child(6n+1),
+	.product-item-list-col-1-6 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-6-1 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-1-6 > .col-sm-6  > .row > .col-md-4:nth-child(3n+1),
+	.product-item-list-col-6-1 > .col-sm-6  > .row > .col-md-4:nth-child(3n+1),
+	/*4*/
+	.product-item-list-col-4   > .col-xs-12 > .row > .col-md-3:nth-child(4n+1),
+	.product-item-list-col-1-4 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-4-1 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	/*3*/
+	.product-item-list-col-3   > .col-xs-12 > .row > .col-sm-4:nth-child(3n+1),
+	/*2*/
+	.product-item-list-col-2   > .col-xs-12 > .row > .col-xs-6:nth-child(2n+1),
+	/*1*/
+	.product-item-list-col-1   > .col-xs-12 > .row > .col-xs-12:nth-child(1n){clear: both}
+}
+@media (min-width: 992px) and (max-width:1199px){
+	/*md*/
+	/*6*/
+	.product-item-list-col-6   > .col-xs-12 > .row > .col-md-2:nth-child(6n+1),
+	.product-item-list-col-1-6 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-6-1 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-1-6 > .col-sm-6 > .row > .col-md-4:nth-child(3n+1),
+	.product-item-list-col-6-1 > .col-sm-6 > .row > .col-md-4:nth-child(3n+1),
+	/*4*/
+	.product-item-list-col-4   > .col-xs-12 > .row > .col-md-3:nth-child(4n+1),
+	.product-item-list-col-1-4 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-4-1 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	/*3*/
+	.product-item-list-col-3   > .col-xs-12 > .row > .col-sm-4:nth-child(3n+1),
+	/*2*/
+	.product-item-list-col-2   > .col-xs-12 > .row > .col-xs-6:nth-child(2n+1),
+	/*1*/
+	.product-item-list-col-1   > .col-xs-12 > .row > .col-xs-12:nth-child(1n){clear: both}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	/*sm*/
+	/*6*/
+	.product-item-list-col-6   > .col-xs-12 > .row > .col-sm-4:nth-child(3n+1),
+	.product-item-list-col-1-6 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-6-1 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-1-6 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-6-1 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	/*4*/
+	.product-item-list-col-4   > .col-xs-12 > .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-1-4 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-4-1 > .col-sm-6:nth-child(2n+1),
+	.product-item-list-col-1-4 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-4-1 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	/*3*/
+	.product-item-list-col-3   > .col-xs-12 > .row > .col-sm-4:nth-child(3n+1),
+	/*2*/
+	.product-item-list-col-2   > .col-xs-12 > .row > .col-xs-6:nth-child(2n+1),
+	/*1*/
+	.product-item-list-col-1   > .col-xs-12 > .row > .col-xs-12:nth-child(1n){clear: both}
+}
+@media (max-width: 767px){
+	/*xs*/
+	/*6*/
+	.product-item-list-col-6   > .col-xs-12 > .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-1-6 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-6-1 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	/*4*/
+	.product-item-list-col-4   > .col-xs-12 > .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-1-4 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	.product-item-list-col-4-1 > .col-sm-6 >  .row > .col-xs-6:nth-child(2n+1),
+	/*3*/
+	.product-item-list-col-3   > .col-xs-12 > .row > .col-sm-4:nth-child(3n+1),
+	/*2*/
+	.product-item-list-col-2   > .col-xs-12 > .row > .col-xs-6:nth-child(2n+1),
+	/*1*/
+	.product-item-list-col-1   > .col-xs-12 > .row > .col-xs-12:nth-child(1n){clear: both}
+}
+
+.catalog-section-header{
+	font-size:14px;
+	font-weight: bold;
+	text-align: left;
+	margin:5px 0;
+	padding:5px 15px;
+	border-bottom: 2px solid #d9dee6;
+	color: #000;
+}
+/* End */
+
+
+/* Start:/local/templates/dizzy_shop/components/bitrix/catalog.section/main_page/themes/green/style.css?1519450490843*/
+/* catalog.section */
+
+/*
+#63aa28
+#6fb32d
+#7ab748
+#a8d95b
+*/
+
+/* Slider */
+.bx-green .product-item-image-slider-progress-bar { background-color: #5b9f0b;}
+.bx-green .product-item-image-slider-control:hover{ background-color: rgba(91,159,11,.8);}
+.bx-green .product-item-image-slider-control.active,
+.bx-green .product-item-image-slider-control:hover{ background-color: #5b9f0b;}
+
+/* SCU */
+.bx-green .product-item-scu-item-text-block:hover,
+.bx-green .product-item-scu-item-color-block:hover,
+.bx-green .product-item-scu-item-text-container.selected .product-item-scu-item-text-block,
+.bx-green .product-item-scu-item-color-container.selected .product-item-scu-item-color-block{ outline-color: #63aa28;}
+
+/* Amount */
+.bx-green .product-item-amount-field:focus{border-color: #63aa28;}
+
+
+.bx-green .catalog-section-header{border-color:#63aa28;}
+/* End */
+/* /bitrix/components/bitrix/system.pagenavigation/templates/round/style.css?15194464642917 */
+/* /local/templates/dizzy_shop/components/bitrix/catalog.section/main_page/style.css?15194504903771 */
+/* /local/templates/dizzy_shop/components/bitrix/catalog.section/main_page/themes/green/style.css?1519450490843 */

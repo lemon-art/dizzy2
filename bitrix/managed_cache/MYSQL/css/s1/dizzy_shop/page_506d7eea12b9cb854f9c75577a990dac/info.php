@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/templates/dizzy_shop/components/bitrix/main.register/.default/style.css" => "1520795788463",)); ?>

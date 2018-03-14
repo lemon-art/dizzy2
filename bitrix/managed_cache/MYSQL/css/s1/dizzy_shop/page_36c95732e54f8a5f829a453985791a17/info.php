@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/templates/dizzy_shop/components/bitrix/sale.personal.order.list/.default/style.css" => "152076458015483",)); ?>

@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/wizards/bitrix/eshop/css/panel.css" => "1519446590240","/local/templates/dizzy_shop/css/app.css" => "1519453618184500","/bitrix/js/main/core/css/core_panel.css" => "151944646367494","/local/templates/dizzy_shop/template_styles.css" => "1520657711251","/bitrix/js/fileman/sticker.css" => "151944647127011",)); ?>

@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/local/templates/dizzy_shop/css/app.css" => "1519453618184500","/local/templates/dizzy_shop/template_styles.css" => "1520657711251",)); ?>
